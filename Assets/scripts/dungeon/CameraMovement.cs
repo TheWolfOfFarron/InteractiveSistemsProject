@@ -22,7 +22,7 @@ public class CameraMovement : MonoBehaviour
 
     private bool canMove = true;
 
-    public Interactable focus;
+
   
 
     private Animator animator;
@@ -86,54 +86,11 @@ public class CameraMovement : MonoBehaviour
             transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * lookSpeed, 0);
         }
 
-        interact();
-
-
-    }
-
-
-    void interact()
-    {
-        if (Input.GetKey(KeyCode.E))
-        {
-            Ray ray= playerCamera.ScreenPointToRay(Input.mousePosition);
-            RaycastHit hit; 
-            if(Physics.Raycast(ray, out hit,100)) {
-                Interactable interactable = hit.collider.GetComponent<Interactable>();
-                if (interactable != null)
-                {
-                    SetFocus(interactable);
-                }
-            }
-
-
-        }
-    }
-
-    void SetFocus(Interactable newFocus)
-    {
-        // If our focus has changed
-        if (newFocus != focus)
-        {
-            // Defocus the old one
-            if (focus != null)
-                focus.OnDefocused();
-
-            focus = newFocus;   // Set our new focus
-      
-        }
-
-        newFocus.OnFocused(transform);
-    }
-
-
-    void RemoveFocus()
-    {
-        if (focus != null)
-            focus.OnDefocused();
-
-        focus = null;
      
+
+
     }
 
+
+   
 }

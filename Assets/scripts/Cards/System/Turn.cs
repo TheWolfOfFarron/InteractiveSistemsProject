@@ -10,4 +10,10 @@ public class Turn : MonoBehaviour
 
     public static CardView selectedCard;
 
+    private void Start()
+    {
+        Cursor.lockState = CursorLockMode.Confined;
+        Cursor.visible = true;
+    }
+
 }

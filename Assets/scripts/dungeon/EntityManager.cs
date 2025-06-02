@@ -21,6 +21,7 @@ public class EntityManager : MonoBehaviour
       if(entities == 0)
         {
             StartCoroutine(ShowHPTemporarily(3f));
+            won = true;
         }   
 
       if(Input.GetKeyUp(KeyCode.O) && won==true)
