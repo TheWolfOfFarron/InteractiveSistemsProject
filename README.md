@@ -1,73 +1,57 @@
-Overview
-This is a demo of a hybrid single-player game that combines turn-based card battles with dungeon-crawling exploration. The gameplay loop integrates strategic card mechanics and classic dungeon combat within handcrafted levels, showcasing the core features and design direction of the full game.
+# Interactive Systems Project – Demo Version
 
-Gameplay Loop
-Card Game Phase
+## Overview
 
-Engage in turn-based card battles using a prebuilt deck.
+This is a **demo** of a hybrid single-player game that combines **turn-based card battles** with **dungeon-crawling exploration**. The gameplay loop integrates strategic card mechanics and classic dungeon combat within handcrafted levels, showcasing the core features and design direction of the full game.
 
-Winning provides rewards like gold and new cards.
+## Gameplay Loop
 
-Losing sends the player into a dungeon environment.
+1. **Card Game Phase**  
+   - Engage in turn-based card battles using a prebuilt deck.  
+   - Winning provides rewards like gold and new cards.  
+   - Losing sends the player into a dungeon environment.
 
-Dungeon Phase
+2. **Dungeon Phase**  
+   - Explore a fixed dungeon map with pre-placed enemies and traps.  
+   - Defeat enemies and collect loot.  
+   - Exit the dungeon to return to the card phase.
 
-Explore a fixed dungeon map with pre-placed enemies and traps.
+3. **Deck Upgrade Phase**  
+   - Sell collected items for gold.  
+   - Use gold to improve your deck for the next challenge.
 
-Defeat enemies and collect loot.
+4. **Final Goal**  
+   - Progress through the demo and challenge the boss opponent in a final card duel.
 
-Exit the dungeon to return to the card phase.
+## Features
 
-Deck Upgrade Phase
+- Turn-based card battle system with multiple card types: attack, defense, buffs, debuffs.
+- Handcrafted dungeon levels with set enemy placements and designed encounters.
+- Inventory system to manage collected loot.
+- AI opponents in both card and dungeon phases.
+- Integrated 3D menu and immersive user interface built in Unity.
+- Polish-focused demo to showcase gameplay flow, UI, and visual style.
 
-Sell collected items for gold.
+## Technologies
 
-Use gold to improve your deck for the next challenge.
+- **Game Engine**: Unity 3D  
+- **Programming Language**: C#  
+- **3D Assets**: Unity Asset Store, Blender  
+- **Tools**: PyCharm, Git
 
-Final Goal
+## Development Status
 
-Progress through the demo and challenge the boss opponent in a final card duel.
-
-Features
-Turn-based card battle system with multiple card types: attack, defense, buffs, debuffs.
-
-Handcrafted dungeon levels with set enemy placements and designed encounters.
-
-Inventory system to manage collected loot.
-
-AI opponents in both card and dungeon phases.
-
-Integrated 3D menu and immersive user interface built in Unity.
-
-Polish-focused demo to showcase gameplay flow, UI, and visual style.
-
-Technologies
-Game Engine: Unity 3D
-
-Programming Language: C#
-
-3D Assets: Unity Asset Store, Blender
-
-Tools: PyCharm, Git
-
-Development Status
 This demo is a playable vertical slice of the full game vision. It includes:
 
-A sample card battle
+- A sample card battle  
+- A handcrafted dungeon segment  
+- Upgrade mechanics between phases  
+- A boss card battle to conclude the session
 
-A handcrafted dungeon segment
+## Planned Improvements 
+- More levels and cards  
+- Expanded AI logic  
+- Additional game modes  
+- Optional dungeon exploration  
+- Replayability features and advanced upgrade systems
 
-Upgrade mechanics between phases
-
-A boss card battle to conclude the session
-
-Planned Improvements (Post-Demo)
-More levels and cards
-
-Expanded AI logic
-
-Additional game modes
-
-Optional dungeon exploration
-
-Replayability features and advanced upgrade systems
