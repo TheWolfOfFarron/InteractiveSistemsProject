@@ -1,4 +1,4 @@
-# Interactive Systems Project – Demo Version
+
 
 ## Overview
 
